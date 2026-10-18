@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar started -->
+        <nav class="navbar navbar-expand-lg" style="background-color: #ebf1ff; padding-top: 0; padding-bottom: 0;">
+            <div class="container-fluid" style="padding: 0rem 8.5rem 0rem 7.5rem;">
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-center align-items-center"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <h1> <a class="nav-link active" aria-current="page" href="#">OLX</a></h1>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Motors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Property</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" role="search">
+                        <button class="btn btn-outline-success" type="submit">Login</button>
+                        <button class="btn btn-outline-success ms-4 px-4" type="submit"
+                            style="border-radius: 20px;">Search</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar ended -->
+
+        <!-- searchbar started -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="padding: 0.2rem 8.5rem 0.2rem 7.5rem;">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle border border-1 border-black px-5" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 7px;">
+                                Pakistan
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Lahore</a></li>
+                                <li><a class="dropdown-item" href="#">Karachi</a></li>
+                                <li><a class="dropdown-item" href="#">Islamabad</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- searchbar ended -->
+
+        <!-- category-bar started -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="padding: 0.2rem 8.5rem 0.2rem 7.5rem;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Mobile Phones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Cars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Motorcycles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Houses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Video-Audios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Tablets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Land & Plots</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- category-bar ended -->
+    </header>
+
+    <!-- main started -->
+    <main>
+        <div class="hero-container" style="padding: 0.2rem 8.5rem 0.2rem 7.5rem;">
+            <img src="https://images.olx.com.pk/thumbnails/651542452-800x600.webp" alt="" class="hero-image">
+        </div>
+        <div class="hero-container" style="padding: 0.2rem 8.5rem 0.2rem 7.5rem;">
+            <img src="https://images.olx.com.pk/thumbnails/652280955-800x600.webp" alt="" class="hero-image">
+        </div>
+
+        <!-- grid section started -->
+
+        <div class="container-fluid" style="padding: 2rem 8.5rem 0.2rem 7.5rem;">
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-lg-6 row-cols-xl-9">
+
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/mobiles.73f961c6ad58605c032eb7c2cf12aeaa.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Mobiles</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/vehicles.354a5ebfb7f21e87991a277dd4b40f4b.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Vehicles</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/property-for-sale.69b01e8dafc182fa3bd469d0ed4fc801.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2 w-50">
+                            <h6 style="text-align: center;">Property for Sale</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/property-for-rent.49f99cc528b9b88da4f33fbe1f0b3346.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2 w-50">
+                            <h6 style="text-align: center;">Proprty for Rent</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/electronics-home-appliances.0a30101e6fd7d9ccc8cd6b85b9b44cee.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2 w-50">
+                            <h6 style="text-align: center;">Electronics & Home</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/bikes.0a5064ae987f3bd72801b7bc2c3b6e02.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2 w-50">
+                            <h6 style="text-align: center;">Bikes</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/business-industrial-agriculture.2ec28979a1bde0183c777a0ce51b37c6.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2 w-50">
+                            <h6 style="text-align: center;">Business Industrial</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/services.23d8eb1535f319324813848887961a59.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2 w-50">
+                            <h6 style="text-align: center;">Services</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/jobs.dc882b8ff65e94850cc12f5abd605420.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Jobs</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/animals.476fa9caaf88a12dfbcd6db4c8c6f17a.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Animals</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/furniture-home-decor.47a1998de5f4a8a9e84702dcb40bb313.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2 w-50">
+                            <h6 style="text-align: center;">Furniture & Home Decor</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/fashion-beauty.6ef7c1f060c92b55a6b28bfcfb16a1d2.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Fashion & Beauty</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/books-sports-hobbies.9406daf905b451fa283048652f414054.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Books, Sports & Hobbies</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://www.olx.com.pk/assets/kids.5de42a58bc91f81fa22ccc401d7ac285.png"
+                            class="img-fluid w-50" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Kids</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- grid section ended -->
+
+        <!-- body-mobilePhone area started -->
+        <div class="mobile-container" style="padding: 2rem 8.5rem 0.2rem 7.5rem;">
+            <div class="row row-cols-4">
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdjx0VvhJGcuffjq3VYoABdCPWqQ2g8qMsmoGmfiYhbQ&s=10"
+                            class="img-fluid w-100" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Kids</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6N7RMQUKMhz6_BSQJnznsJEX22brEmGMyZKnWfaTVvuJiWORSMUT0znM&s=10"
+                            class="img-fluid w-100" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Kids</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9WoDTKhrK92ESJzhv2ippXJpb1PsJOO25Xk1aHIYgog&s=10"
+                            class="img-fluid w-100" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Kids</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item-card d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9UV9lyU-8zmB6afhRND8iwHtyODUJL2U8xbIh54YK3XyokAKtZy8fk0s&s=10"
+                            class="img-fluid w-100" alt="T-shirt">
+                        <div class="p-2">
+                            <h6 style="text-align: center;">Kids</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- body-mobilePhone area ended -->
+    </main>
+    <!-- main ended -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
