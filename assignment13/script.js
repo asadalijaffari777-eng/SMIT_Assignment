@@ -490,10 +490,6 @@
 // else if(studentMark < 0 || studentMark > 100) console.log('Invalid Marks')
 
 
-
-// <--Task 5 started-->
-
-
 // Assignment 2(Discount Eligibility Based on Age and Membership)----->
 
 // let age = parseInt(prompt('Enter your age: '))
